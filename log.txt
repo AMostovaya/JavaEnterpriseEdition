@@ -1,0 +1,19 @@
+20:43:30,915 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\wildfly\standalone\data\content\4e\2739f08dc5471a3ec6e1e0a8ba1edd118d9f36\content
+20:43:30,990 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "firstapp.war" (runtime-name: "firstapp.war")
+20:43:38,341 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-4) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+20:43:38,436 INFO  [org.infinispan.CONTAINER] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Turia' 10.1.8.Final
+20:43:39,353 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 27) WFLYCLINF0002: Started client-mappings cache from ejb container
+20:43:39,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/firstapp' for server 'default-server'
+20:43:40,114 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "firstapp.war" (runtime-name : "firstapp.war")
+21:14:10,864 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\wildfly\standalone\data\content\ff\d8b8850e1a5ae83f4291711a835cb3b9904333\content
+21:14:10,875 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "first-web-app.war" (runtime-name: "first-web-app.war")
+21:14:11,228 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/first-web-app' for server 'default-server'
+21:14:11,292 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "first-web-app.war" (runtime-name : "first-web-app.war")
+21:42:33,321 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\wildfly\standalone\data\content\c0\022e3cd5dbface2d03aaad1afef1e579584d5d\content
+21:42:33,421 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: '/first-web-app' from server 'default-server'
+21:42:33,616 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment first-web-app.war (runtime-name: first-web-app.war) in 240ms
+21:42:33,623 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "first-web-app.war" (runtime-name: "first-web-app.war")
+21:42:34,274 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/first-web-app' for server 'default-server'
+21:42:34,350 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0016: Replaced deployment "first-web-app.war" with deployment "first-web-app.war"
+21:42:34,381 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location C:\wildfly\standalone\data\content\ff\d8b8850e1a5ae83f4291711a835cb3b9904333\content
+
