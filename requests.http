@@ -1,0 +1,39 @@
+GET http://localhost:8080/first-jsf-app/api/product/3
+
+###
+
+GET http://localhost:8080/first-jsf-app/api/product
+
+###
+
+POST http://localhost:8080/first-jsf-app/api/product
+Content-Type: application/json
+
+{
+  "categoryId": 1,
+  "categoryName": "Laptop",
+  "description": "Apple",
+  "name": "Apple 11",
+  "price": 999.00
+}
+
+###
+
+GET http://localhost:8080/first-jsf-app/api/category/1
+
+###
+
+POST http://localhost:8080/first-jsf-app/api/product/category
+Content-Type: application/json
+
+{
+  "name": "Mobile"
+}
+
+###
+GET http://localhost:8080/first-jsf-app/api/product/category/1
+
+
+###
+
+DELETE http://localhost:8080/first-jsf-app/api/product/3
